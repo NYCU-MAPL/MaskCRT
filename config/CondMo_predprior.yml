@@ -1,0 +1,20 @@
+---
+    model_architecture: QualcommCondSwinHyperPriorCoder
+    
+    model_params:
+        hyper_dim       : [96, 128, 128]
+        input_dim       : 2
+        scale_list      : [4, 2, 2]
+        dims            : [96, 96, 96]
+        kernel_size     : [5, 3, 3]
+        depths          : [2, 4, 2]
+        num_heads       : [8, 8, 8]
+        window_size     : [4, 4, 4]
+        mlp_ratio       : 2.
+        qkv_bias        : True
+        drop_rate       : 0.
+        attn_drop_rate  : 0.
+        drop_path_rate  : 0.1
+        norm_layer      : LayerNorm
+        quant_mode      : estUN_outR
+        use_temp        : True

@@ -1,0 +1,25 @@
+---
+    model_architecture: QualcommCondSwinHyperPriorCoder_Context
+    
+    model_params:
+        hyper_dim       : [192, 192, 192]
+        input_dim       : 3
+        scale_list      : [2, 4, 2]
+        dims            : [96, 128, 192]
+        kernel_size     : [5, 3, 3]
+        depths          : [4, 4, 2]
+        num_heads       : [8, 8, 8]
+        window_size     : [8, 8, 8]
+        mlp_ratio       : 2.
+        qkv_bias        : True
+        drop_rate       : 0.
+        attn_drop_rate  : 0.
+        drop_path_rate  : 0.1
+        norm_layer      : LayerNorm
+        quant_mode      : estUN_outR
+        use_temp        : True
+        Add_CTM         : True
+        CTM_depth       : 2
+        CTM_head        : 8
+        CA_bias         : False
+        context_type    : Checkerboard

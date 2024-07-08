@@ -1,0 +1,12 @@
+---
+    model_architecture: GoogleHyperPrior
+    
+    model_params:
+        in_channels     : 2
+        out_channels    : 2
+        kernel_size     : 3
+        num_filters     : 128
+        num_features    : 128
+        num_hyperpriors : 128
+        downsample_8    : False
+        quant_mode      : RUN
