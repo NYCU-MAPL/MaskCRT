@@ -20,8 +20,8 @@ cd MaskCRT
 Download the following pre-trained models and put them in the corresponding folder in `./models`.
 |         Metrics         | Quality 5 | Quality 4 | Quality 3 | Quality 2 |
 |:-----------------------:|-----------|-----------|-----------|-----------|
-|     PSNR-RGB            | [Q5]() | [Q4]() | [Q3]() | [Q2]() |
-|     MS-SSIM-RGB         | [Q5]() | [Q4]() | [Q3]() | [Q2]() |
+|     PSNR-RGB            | [Q5](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/PSNR_Q5.pth.tar) | [Q4](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/PSNR_Q4.pth.tar) | [Q3](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/PSNR_Q3.pth.tar) | [Q2](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/PSNR_Q2.pth.tar) |
+|     MS-SSIM-RGB         | [Q5](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/SSIM_Q5.pth.tar) | [Q4](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/SSIM_Q4.pth.tar) | [Q3](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/SSIM_Q3.pth.tar) | [Q2](https://github.com/NYCU-MAPL/MaskCRT/releases/download/v1.0/SSIM_Q2.pth.tar) |
 
 
 ## Example Usage
