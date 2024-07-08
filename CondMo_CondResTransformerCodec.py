@@ -678,9 +678,9 @@ def main(argv):
 
     # load model
     if args.ssim:
-        checkpoint = torch.load(os.path.join('./models/SSIM', f'Q{args.quality_level}.pth.tar'), map_location=device)
+        checkpoint = torch.load(os.path.join('./models/SSIM', f'SSIM_Q{args.quality_level}.pth.tar'), map_location=device)
     else:
-        checkpoint = torch.load(os.path.join('./models/PSNR', f'Q{args.quality_level}.pth.tar'), map_location=device)
+        checkpoint = torch.load(os.path.join('./models/PSNR', f'PSNR_Q{args.quality_level}.pth.tar'), map_location=device)
 
     ckpt = {}
     for k, v in checkpoint["state_dict"].items():
