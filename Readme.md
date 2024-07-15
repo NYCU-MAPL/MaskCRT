@@ -48,9 +48,10 @@ If you find our project useful, please cite the following paper.
 @article{MaskCRT,
   title={MaskCRT: Masked Conditional Residual Transformer for Learned Video Compression},
   author={Chen, Yi-Hsin and Xie, Hong-Sheng and Chen, Cheng-Wei and Gao, Zong-Lin and Benjak, Martin and Peng, Wen-Hsiao and Ostermann, J{\"o}rn},
-  journal={arXiv preprint arXiv:2312.15829},
-  year={2023}
-}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  year={2024},
+  doi={10.1109/TCSVT.2024.3427426}
+  }
 ```
 
 ## Ackownledgement
