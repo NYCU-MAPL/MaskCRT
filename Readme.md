@@ -10,7 +10,7 @@ This repository contains the source code of our TCSVT paper **MaskCRT** [arXiv](
 
 ```bash
 git clone https://github.com/NYCU-MAPL/MaskCRT
-conda env create -n TransCodec python=3.8.8
+conda create -n TransCodec python=3.8.8
 conda activate TransCodec
 cd MaskCRT
 ./install.sh
